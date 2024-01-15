@@ -1,0 +1,46 @@
+/* testimonial section */
+
+.testimonial {
+    position: relative;
+    background-image: url(../images/background/background3.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.testimonial-content {
+    padding: 120px;
+    width: 80%;
+    margin: auto;
+}
+
+
+.testimonial-item {
+    width: 50%;
+    color: var(--whitecolor);
+}
+
+.testimonial-item .testimonial-toplayer {
+    padding: 10px 2px 40px 100px;
+    position: relative;
+}
+
+.testimonial-item .testimonial-toplayer img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+.testimonial-item .testimonial-toplayer h3 {
+    margin: 5px 0;
+}
+
+.testimonial-item .testimonial-toplayer span {
+    color: var(--maincolor);
+}
+
+.testimonial-desc {
+    line-height: 1.5;
+    font-size: 17px;
+}

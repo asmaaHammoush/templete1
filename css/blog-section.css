@@ -1,0 +1,55 @@
+/*3.7- Blog section */
+
+.blog {
+    background-color: #f8f8f8;
+}
+
+
+
+.blog-item {
+    width: 30%;
+    background-color: var(--whitecolor);
+    padding: 40px 15px;
+}
+
+.blog-list li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.blog-list li i {
+    color: var(--maincolor);
+}
+
+
+.blog-item-img img {
+    width: 100%;
+}
+
+.blog-item-title {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.blog-item-desc {
+    color: var(--graycolor);
+    line-height: 1.5;
+}
+
+
+.blog-info {
+    padding: 20px;
+}
+
+.blog-list {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.blog-link {
+    color: var(--maincolor);
+}
+
+.blog-item.mg {
+    margin: 0 5%;
+}

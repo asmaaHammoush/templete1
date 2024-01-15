@@ -1,0 +1,89 @@
+/* 3.0- Header section */
+
+.section-header .line {
+    display: block;
+    height: 5px;
+    width: 60px;
+    margin: 0 auto 70px auto;
+    background-color: var(--maincolor);
+}
+
+
+.header .logo {
+    width: 40%;
+}
+
+.header .logo img {
+    width: 20%;
+    margin-top: 15px;
+}
+
+
+.header .nav {
+    width: 60%;
+    float: left;
+    list-style: none;
+    text-align: right;
+}
+
+.header .nav>li {
+    display: inline-block;
+    text-align: right;
+}
+
+.header .nav>li>a {
+    color: white;
+    padding: 30px 15px;
+    display: block;
+    font-size: 15px;
+}
+
+
+.header .nav>li>a.active::after,
+.header .nav>li>a::after {
+    content: "";
+    display: block;
+    margin-top: 2px;
+    height: 3px;
+    background-color: var(--maincolor);
+    transition: width 0.5s;
+}
+
+.header .nav>li>a::after {
+    width: 0%;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background-color: var(--maincolor);
+    width: 150px;
+    text-align: center;
+    left: -50%;
+    top: 70%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s;
+}
+
+.dropdown-menu a {
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.header .nav>li>a.active::after {
+    width: 100%;
+}
+
+.header .nav>li>a:hover::after {
+    width: 100%;
+}

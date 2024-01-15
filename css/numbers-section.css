@@ -1,0 +1,33 @@
+/*3.6- numbers section */
+
+.numbers {
+    position: relative;
+    background-image: url(../images/background/background2.jpg);
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.numbers-items {
+    padding: 100px;
+}
+
+.number-item {
+    width: 25%;
+    text-align: center;
+}
+
+.number-item .icon {
+    color: var(--maincolor);
+}
+
+.number-item-title {
+    font-weight: bold;
+    font: 30px;
+    color: white;
+}
+
+.number-item-text {
+    color: white;
+}

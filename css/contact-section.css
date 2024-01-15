@@ -1,0 +1,83 @@
+/*3.8- Contact section */
+
+.contact {
+    background-color: #f8f8f8;
+}
+
+.contact-icons {
+    padding-bottom: 60px;
+}
+
+.contact-icon {
+    width: 30%;
+    text-align: center;
+}
+
+.contact-icon i {
+    color: #4472ce;
+    padding-bottom: 10px;
+}
+
+.contact-icon h4 {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.contact-icon span {
+    color: var(--graycolor);
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-input-pers {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"] {
+    background-color: #f0eded;
+    /* padding: 5px 0;
+     margin:4px 0 ; */
+    border: solid #f0eded;
+}
+
+.contact-input-pers input[type="text"],
+.contact-input-pers input[type="email"] {
+    width: 34%;
+    margin: 8px 1%;
+    display: inline-block;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.contact-input-msg input[type="text"] {
+    width: 70%;
+    margin: 7px auto 7 auto;
+    padding: 10px;
+}
+
+
+
+
+textarea {
+    width: 70%;
+    height: 90px;
+    margin: 7px auto 7 auto;
+    border: solid #f0eded;
+    padding: 10px;
+    background-color: #f0eded;
+    font-size: 16px;
+}
+
+.btn-send {
+    border: 0;
+    background-color: #4472ce;
+    color: white;
+    min-width: 150px;
+    border-radius: 4px;
+    padding: 12px 0;
+    cursor: pointer;
+    font-size: 17px;
+}
